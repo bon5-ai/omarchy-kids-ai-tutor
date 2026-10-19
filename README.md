@@ -17,7 +17,7 @@ Target ages for the first release: **5–12**.
 Kids Math (`omarchykids.math`) is not the tutor. It is a standalone overlay
 the tutor will summon, alongside later siblings (reading, typing, and so on),
 using a shared JSON assessment contract. The marketplace listing lives in
-[mikeg0/omarchy-kids-math](https://github.com/mikeg0/omarchy-kids-math).
+[bon5-ai/omarchy-kids-math](https://github.com/bon5-ai/omarchy-kids-math).
 
 ## Install a sub-plugin
 
@@ -25,7 +25,7 @@ Omarchy’s `plugin add` clones a git *root* that contains `manifest.json`, so
 each listed plugin has its own repository:
 
 ```sh
-omarchy plugin add https://github.com/mikeg0/omarchy-kids-math.git --enable
+omarchy plugin add https://github.com/bon5-ai/omarchy-kids-math.git --enable
 ```
 
 From this monorepo checkout (no inner symlinks — Omarchy rejects those):

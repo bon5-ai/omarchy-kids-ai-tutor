@@ -5,9 +5,9 @@ leveled math practice for ages 5–12, plus a JSON assessment contract the
 Kids AI Tutor can use for an initial aptitude check.
 
 This plugin is developed at `plugins/math` in the
-[omarchy-kids-ai-tutor](https://github.com/mikeg0/omarchy-kids-ai-tutor)
+[omarchy-kids-ai-tutor](https://github.com/bon5-ai/omarchy-kids-ai-tutor)
 monorepo. It is **not** the AI Tutor. The installable listing repo is
-[mikeg0/omarchy-kids-math](https://github.com/mikeg0/omarchy-kids-math).
+[bon5-ai/omarchy-kids-math](https://github.com/bon5-ai/omarchy-kids-math).
 
 It follows the Quattro plugin contract (`overlay` + `bar-widget`), uses the
 active theme tokens, and does not start a second Quickshell process.
@@ -18,7 +18,7 @@ packages. License: MIT.
 ## Install
 
 ```sh
-omarchy plugin add https://github.com/mikeg0/omarchy-kids-math.git --enable
+omarchy plugin add https://github.com/bon5-ai/omarchy-kids-math.git --enable
 ```
 
 That clones the plugin into `~/.config/omarchy/plugins/omarchykids.math/`
